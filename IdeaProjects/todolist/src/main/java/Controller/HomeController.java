@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping(value = "/")
     public String main() {
-        System.out.println("Test123123");
+        System.out.println("Lenox");
 
         return "index";
     }
